@@ -27,6 +27,7 @@ android {
     externalNativeBuild {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
+            abiFilters "armeabi-v7a" ,"arm64-v8a"
         }
     }
 
